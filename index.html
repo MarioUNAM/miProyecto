@@ -1,0 +1,428 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--Bootstrap-->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">    
+	<!--Mi estilos -->
+	<link rel="stylesheet" href="css/styles.css">
+	<!--Google fonts-->
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap" rel="stylesheet"> 
+	<!--Icono pagina-->
+	<link rel="icon" href="img/logo.png">
+
+	<title>Domino's pizza - Inicio</title>
+</head>
+<body>
+	<header class="fixed-top " style="background-color: #006391">
+
+		<nav class="container navbar navbar-expand-lg navbar-dark bg-DP">
+			
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		    <a class="navbar-brand" href="index.html"><img id="icn-domino" src="img/icono-dominos-header.svg" alt="Domino's pizza"></a>
+		    <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+		    <div class="navbar-nav nav-izq">
+		        <a class="nav-link" href="#"><img class="efecto-img" src="img/ICN-PIZZAS.png" alt="Domino's pizza"></a>
+		        <a class="nav-link" href="productos.html"><img class="efecto-img" src="img/promo.png" alt="Domino's pizza"></a>
+		        <a class="nav-link" href="#"><img class="efecto-img" src="img/add.png" alt="Domino's pizza"></a>
+		        <a class="nav-link" href="#"><img class="efecto-img" src="img/arma.png" alt="Domino's pizza"></a>
+		        <a class="nav-link" href="#"><img class="efecto-img" src="img/carrito.png" alt="Domino's pizza"></a>
+		        <a class="nav-link" href="#"><img class="efecto-img" src="img/sesion.png" alt="Domino's pizza"></a>
+		    </div>
+		  </div>
+		</nav>
+	</header>
+	<section class="cont">
+		<div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+		  <ol class="carousel-indicators">
+		    <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+		    <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+		    <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+		     <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+		  </ol>
+		  <div class="carousel-inner">
+		    <div class="carousel-item active">
+		      <img class="d-block w-100" src="img/c1.png" alt="First slide">
+		    </div>
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="img/c2.png" alt="Second slide">
+		    </div>
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="img/c3.png" alt="Third slide">
+		    </div>
+		    <div class="carousel-item">
+		      <img class="d-block w-100" src="img/c4.png" alt="Third slide">
+		    </div>
+		  </div>
+		  <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+		    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Previous</span>
+		  </a>
+		  <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+		    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+		    <span class="sr-only">Next</span>
+		  </a>
+		</div>
+	</section>
+
+	<section class="min">
+			<h3 class="azul-dominos text-center">PROMOCIONES</h3>
+			<div class="mt-3">
+		      <img class="d-block w-100" src="img/c1.png" alt="First slide">
+		    </div>
+		    <div class="mt-3">
+		      <img class="d-block w-100" src="img/c2.png" alt="Second slide">
+		    </div>
+		    <div class="mt-3">
+		      <img class="d-block w-100" src="img/c3.png" alt="Third slide">
+		    </div>
+		    <div class="mt-3 mb-3">
+		      <img class="d-block w-100" src="img/c4.png" alt="Third slide">
+		    </div>
+	</section>
+
+	<div class="text-center pizzas">
+			<h1 class="rojo-dominos ">Elige tu pizza</h1>
+			<div class="container">
+				<div class="row">
+						<div class="col-md-3 col-sm-6 mb-3">
+				        	<div class="col-12">
+				        	    <div class="titulo-pizza">Hawaiana</div>
+				        	</div>
+				        	<div class="col-12">
+				        	    	<img id="pizza1" class="img-pizza lazyload" src="https://assets.dominos.com.mx/dev/webOptimized/especialidad/HNC/HNC.png" alt="pizza hawaiana">
+				        	    	<div class="back" id="desc1">
+				        	    		<small>
+				        	    	    La pizza que unos cuestionan pero todos aman.  Jamón, piña.
+				        	    	    <br>
+				        	    	    <strong>Ingredientes:</strong> Jamón y Piña
+				        	    	</small>  
+				        	    	</div>          
+				        	</div>
+				        	<div class="col-12">
+				        	    <div class="row no-gutters">
+				        	        <div onclick="myFunction('desc1','pizza1')" class="col-6 col-lg-6 pt-1 d-flex detalles ">
+				        	            <span  class=""><strong>DETALLES</strong> </span>
+				        	        </div>
+				        	        <div class="col-6 d-flex align-items-center p-0 bg-lg-fff">
+				        	            <div class="text-center ordena-aqui align-items-center pt-2 justify-center">
+				        	                <a href="#">ORDENA AQUÍ </a>
+				        	            </div>
+				        	        </div>
+				        	    </div>
+				        	</div>
+				        </div>
+				        <div class="col-md-3  col-sm-6 mb-3">
+				        	<div class="col-12">
+				        	    <div class="titulo-pizza">Honolulu</div>
+				        	</div>
+				        	<div class="col-12">
+				        	    	<img id="pizza2" class="img-pizza lazyload" src="https://assets.dominos.com.mx/dev/webOptimized/especialidad/HONOL/HONOL.png" alt="pizza hawaiana">
+				        	    	<div class="back" id="desc2">
+				        	    		<small>
+				        	    	    La pizza con la perfecta combinación dulce-salado. Jamón, tocino, piña, jalapeño. 
+				        	    	    <br>
+				        	    	    <strong>Ingredientes:</strong> Jamón, Piña, Tocino y Jalapeño 
+				        	    	</small>  
+				        	    	</div>          
+				        	</div>
+				        	<div class="col-12">
+				        	    <div class="row no-gutters">
+				        	        <div onclick="myFunction('desc2','pizza2')" class="col-6 col-lg-6 pt-1 d-flex detalles ">
+				        	            <span  class=""><strong>DETALLES</strong> </span>
+				        	        </div>
+				        	        <div class="col-6 d-flex align-items-center p-0 bg-lg-fff">
+				        	            <div class="text-center ordena-aqui align-items-center pt-2 justify-center">
+				        	                <a href="#">ORDENA AQUÍ </a>
+				        	            </div>
+				        	        </div>
+				        	    </div>
+				        	</div>
+				        </div>
+				        <div class="col-md-3  col-sm-6">
+				        	<div class="col-12">
+				        	    <div class="titulo-pizza">Chicken Hawaiana</div>
+				        	</div>
+				        	<div class="col-12">
+				        	    	<img id="pizza3" class="img-pizza lazyload" src="https://assets.dominos.com.mx/dev/webOptimized/especialidad/CHIHNC/CHIHNC.png" alt="pizza hawaiana">
+				        	    	<div class="back" id="desc3">
+				        	    		<small>
+				        	    	    La pizza más tropical que tenemos. Pollo, tocino, piña, salsa mango habanero. 
+				        	    	    <br>
+				        	    	    <strong>Ingredientes:</strong> Pollo, Tocino, Piña y Salsa de Mango Habanero 
+				        	    	</small>  
+				        	    	</div>          
+				        	</div>
+				        	<div class="col-12">
+				        	    <div class="row no-gutters">
+				        	        <div onclick="myFunction('desc3','pizza3')" class="col-6 col-lg-6 pt-1 d-flex detalles ">
+				        	            <span  class=""><strong>DETALLES</strong> </span>
+				        	        </div>
+				        	        <div class="col-6 d-flex align-items-center p-0 bg-lg-fff">
+				        	            <div class="text-center ordena-aqui align-items-center pt-2 justify-center">
+				        	                <a href="#">ORDENA AQUÍ </a>
+				        	            </div>
+				        	        </div>
+				        	    </div>
+				        	</div>
+				        </div>
+				        <div class="col-md-3  col-sm-6">
+				        	<div class="col-12">
+				        	    <div class="titulo-pizza">Pepperoni Especial</div>
+				        	</div>
+				        	<div class="col-12">
+				        	    	<img id="pizza4" class="img-pizza lazyload" src="https://assets.dominos.com.mx/dev/webOptimized/especialidad/PES/PES.png" alt="pizza hawaiana">
+				        	    	<div class="back" id="desc4">
+				        	    		<small>
+				        	    	    La combinación perfecta entre Pepperoni y Champiñones, con un gran sabor y horneado al momento.  
+				        	    	    <br>
+				        	    	    <strong>Ingredientes:</strong> Pepperoni, Champiñones Frescos y Extra Queso
+				        	    	</small>  
+				        	    	</div>          
+				        	</div>
+				        	<div class="col-12">
+				        	    <div class="row no-gutters">
+				        	        <div onclick="myFunction('desc4','pizza4')" class="col-6 col-lg-6 pt-1 d-flex detalles ">
+				        	            <span  class=""><strong>DETALLES</strong> </span>
+				        	        </div>
+				        	        <div class="col-6 d-flex align-items-center p-0 bg-lg-fff">
+				        	            <div class="text-center ordena-aqui align-items-center pt-2 justify-center">
+				        	                <a href="#">ORDENA AQUÍ </a>
+				        	            </div>
+				        	        </div>
+				        	    </div>
+				        	</div>
+				        </div>
+				        <div class="col-md-3 mt-3 col-sm-6">
+				        	<div class="col-12">
+				        	    <div class="titulo-pizza">Mexicana</div>
+				        	</div>
+				        	<div class="col-12">
+				        	    	<img id="pizza5" class="img-pizza lazyload" src="https://assets.dominos.com.mx/dev/webOptimized/especialidad/MEX/MEX.png" alt="pizza hawaiana">
+				        	    	<div class="back" id="desc5">
+				        	    		<small>
+				        	    	    La pizza con los sabores auténticos de nuestro país. Chorizo, carne molida, jalapeño, cebolla.  
+				        	    	    <br>
+				        	    	    <strong>Ingredientes:</strong>  Chorizo, Carne Molida, Cebolla y Jalapeño 
+				        	    	</small>  
+				        	    	</div>          
+				        	</div>
+				        	<div class="col-12">
+				        	    <div class="row no-gutters">
+				        	        <div onclick="myFunction('desc5','pizza5')" class="col-6 col-lg-6 pt-1 d-flex detalles ">
+				        	            <span  class=""><strong>DETALLES</strong>  </span>
+				        	        </div>
+				        	        <div class="col-6 d-flex align-items-center p-0 bg-lg-fff">
+				        	            <div class="text-center ordena-aqui align-items-center pt-2 justify-center">
+				        	                <a href="#">ORDENA AQUÍ </a>
+				        	            </div>
+				        	        </div>
+				        	    </div>
+				        	</div>
+				        </div>
+				        <div class="col-md-3  mt-3 col-sm-6">
+				        	<div class="col-12">
+				        	    <div class="titulo-pizza">Carnes Frías</div>
+				        	</div>
+				        	<div class="col-12">
+				        	    	<img id="pizza6" class="img-pizza lazyload" src="https://assets.dominos.com.mx/dev/webOptimized/especialidad/CF/CF.png" alt="pizza hawaiana">
+				        	    	<div class="back" id="desc6">
+				        	    		<small>
+				        	    	    La pizza para los amantes de la carne. Salami, pepperoni, jamón, finas hierbas.  
+				        	    	    <br>
+				        	    	    <strong>Ingredientes:</strong>Pepperoni, Salami, Jamón y Finas Hierbas 
+				        	    	</small>  
+				        	    	</div>          
+				        	</div>
+				        	<div class="col-12">
+				        	    <div class="row no-gutters">
+				        	        <div onclick="myFunction('desc6','pizza6')" class="col-6 col-lg-6 pt-1 d-flex detalles ">
+				        	            <span  class=""><strong>DETALLES</strong>  </span>
+				        	        </div>
+				        	        <div class="col-6 d-flex align-items-center p-0 bg-lg-fff">
+				        	            <div class="text-center ordena-aqui align-items-center pt-2 justify-center">
+				        	                <a href="#">ORDENA AQUÍ </a>
+				        	            </div>
+				        	        </div>
+				        	    </div>
+				        	</div>
+				        </div>
+				        <div class="col-md-3  mt-3 col-sm-6">
+				        	<div class="col-12">
+				        	    <div class="titulo-pizza">Cuatro Quesos</div>
+				        	</div>
+				        	<div class="col-12">
+				        	    	<img id="pizza7" class="img-pizza lazyload" src="https://assets.dominos.com.mx/dev/webOptimized/especialidad/4Q/4Q.png" alt="pizza hawaiana">
+				        	    	<div class="back" id="desc7">
+				        	    		<small>
+				        	    	    La pizza pensada en los amantes del queso. Queso mozzarella, queso crema, queso cheddar, queso parmesano.  
+				        	    	    <br>
+				        	    	    <strong>Ingredientes:</strong> Queso Crema, Mozzarella, Parmesano y Cheddar
+				        	    	</small>  
+				        	    	</div>          
+				        	</div>
+				        	<div class="col-12">
+				        	    <div class="row no-gutters">
+				        	        <div onclick="myFunction('desc7','pizza7')" class="col-6 col-lg-6 pt-1 d-flex detalles ">
+				        	            <span  class=""><strong>DETALLES</strong> </span>
+				        	        </div>
+				        	        <div class="col-6 d-flex align-items-center p-0 bg-lg-fff">
+				        	            <div class="text-center ordena-aqui align-items-center pt-2 justify-center">
+				        	                <a href="#">ORDENA AQUÍ </a>
+				        	            </div>
+				        	        </div>
+				        	    </div>
+				        	</div>
+				        </div>
+				        <div class="col-md-3  mt-3 col-sm-6">
+				        	<div class="col-12">
+				        	    <div class="titulo-pizza">Veggie</div>
+				        	</div>
+				        	<div class="col-12">
+				        	    	<img id="pizza8" class="img-pizza lazyload" src="https://assets.dominos.com.mx/dev/webOptimized/especialidad/VGP/VGP.png" alt="pizza hawaiana">
+				        	    	<div class="back" id="desc8">
+				        	    		<small>
+				        	    	    ¡Sólo vegetales! Nuestra opción sin carne. Pimiento, champiñones, aceitunas, cebolla. 
+				        	    	    <br>
+				        	    	    <strong>Ingredientes:</strong> Pimiento, Cebolla, Champiñones Frescos y Aceitunas
+				        	    	</small>  
+				        	    	</div>          
+				        	</div>
+				        	<div class="col-12">
+				        	    <div class="row no-gutters">
+				        	        <div onclick="myFunction('desc8','pizza8')" class="col-6 col-lg-6 pt-1 d-flex detalles ">
+				        	            <span  class=""><strong>DETALLES</strong> </span>
+				        	        </div>
+				        	        <div class="col-6 d-flex align-items-center p-0 bg-lg-fff">
+				        	            <div class="text-center ordena-aqui align-items-center pt-2 justify-center">
+				        	                <a href="#">ORDENA AQUÍ </a>
+				        	            </div>
+				        	        </div>
+				        	    </div>
+				        	</div>
+				        </div>
+				        <div class="col-md-3  mt-3 mb-3 col-sm-6">
+				        	<div class="col-12">
+				        	    <div class="titulo-pizza">Extravaganzza</div>
+				        	</div>
+				        	<div class="col-12">
+				        	    	<img id="pizza9" class="img-pizza lazyload" src="https://assets.dominos.com.mx/dev/webOptimized/especialidad/EXV/EXV.png" alt="pizza hawaiana">
+				        	    	<div class="back" id="desc9">
+				        	    		<small>
+				        	    	    La pizza más incluyente de nuestras especialidades. Pepperoni, carne molida, jamón, chorizo, pimiento, cebolla, champiñones, aceitunas, extra queso.  
+				        	    	    <br>
+				        	    	    <strong>Ingredientes:</strong> Pepperoni, Carne Molida, Jamón.
+				        	    	</small>  
+				        	    	</div>          
+				        	</div>
+				        	<div class="col-12 ">
+				        	    <div class="row no-gutters">
+				        	        <div onclick="myFunction('desc9','pizza9')" class="col-6 col-lg-6 pt-1 d-flex detalles ">
+				        	            <span  class=""><strong>DETALLES</strong> </span>
+				        	        </div>
+				        	        <div class="col-6 d-flex align-items-center p-0 bg-lg-fff">
+				        	            <div class="text-center ordena-aqui align-items-center pt-2 justify-center">
+				        	                <a href="#">ORDENA AQUÍ </a>
+				        	            </div>
+				        	        </div>
+				        	    </div>
+				        	</div>
+				        </div>
+				        <div class="col-md-3  mt-3 mb-3 col-sm-6">
+				        	<div class="col-12">
+				        	    <div class="titulo-pizza">Deluxe</div>
+				        	</div>
+				        	<div class="col-12 content">
+				        	    	<img id="pizza10" class="img-pizza lazyload" src="https://assets.dominos.com.mx/dev/webOptimized/especialidad/DLX/DLX.png" alt="pizza hawaiana">
+				        	    	<div class="back" id="desc10">
+				        	    		<small>
+				        	    	    Disfrutar esta pizza es todo un lujo. Pepperoni, carne molida, champiñones, pimiento, cebolla.   
+				        	    	    <br>
+				        	    	    <strong>Ingredientes:</strong> Pepperoni, Carne Molida, Champiñones Frescos, Pimiento y Cebolla 
+				        	    	</small>  
+				        	    	</div>          
+				        	</div>
+				        	<div class="col-12">
+				        	    <div class="row no-gutters">
+				        	        <div onclick="myFunction('desc10','pizza10')" class="col-6 col-lg-6 pt-1 d-flex detalles ">
+				        	            <span  class=""><strong>DETALLES</strong> </span>
+				        	        </div>
+				        	        <div class="col-6 d-flex align-items-center p-0 bg-lg-fff">
+				        	            <div class="text-center ordena-aqui align-items-center pt-2 justify-center">
+				        	                <a href="#">ORDENA AQUÍ </a>
+				        	            </div>
+				        	        </div>
+				        	    </div>
+				        	</div>
+				  		</div>
+				</div>
+			</div>
+	</div>
+
+	<footer class="bg-gris">
+		<div class="container bg-gris padbot-2">
+			<div class="card-deck">
+			        <div class="card bg-gris">
+			        		<ul class="list-group text-center">
+				                <li class="list-group-item bg-gris"><a href="#">Nuestras sucursales</a></li>
+				                <li class="list-group-item bg-gris"><a href="#">Facturación Electrónica</a></li>
+				                <li class="list-group-item bg-gris"><a href="#">Términos y condiciones</a></li>
+				                <li class="list-group-item bg-gris"><a href="#">Aviso de privacidad</a></li>
+				                <li class="list-group-item bg-gris"><a href="#">Entrega Cero Contacto</a></li>
+			            	</ul>
+					</div>
+					<div class="card bg-gris text-center">
+							<ul class="list-group">
+									<li class="list-group-item bg-gris"><a href="#">Viviendo en Equilibrio</a></li>
+									<li class="list-group-item bg-gris"><a href="quienes.html">¿Quienes somos?</a></li>
+									<li class="list-group-item bg-gris"><a href="#">Comparte tu opinión</a></li>
+									<li class="list-group-item bg-gris"><a href="#">Preguntas frecuentes</a></li>
+									<li class="list-group-item bg-gris"><a href="info.html">Contacto</a></li>
+									<li class="list-group-item bg-gris"><a href="#">Franquicias</a></li>
+									<li class="list-group-item bg-gris"><a href="#">Bolsa de trabajo</a></li>
+									<li class="list-group-item bg-gris"><a href="#">Va por mi cuenta</a></li>                
+							</ul>
+			        </div>
+			        <div class="card bg-gris">
+			                <p class="text-white">Síguenos en nuestras redes sociales</p>
+			                <ul class="social-media">
+			                    <li class="circle-social">
+			                        <a href="https://www.facebook.com/DominosMexico"><img src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjUxMnB0IiB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgd2lkdGg9IjUxMnB0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48bGluZWFyR3JhZGllbnQgaWQ9ImEiIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoMSAwIDAgLTEgMCAtMTgwMDYpIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAiIHgyPSI1MTIiIHkxPSItMTgyNjIiIHkyPSItMTgyNjIiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzAwZjM4ZCIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzAwOWVmZiIvPjwvbGluZWFyR3JhZGllbnQ+PHBhdGggZD0ibTUxMiAyNTZjMCAxNDEuMzg2NzE5LTExNC42MTMyODEgMjU2LTI1NiAyNTZzLTI1Ni0xMTQuNjEzMjgxLTI1Ni0yNTYgMTE0LjYxMzI4MS0yNTYgMjU2LTI1NiAyNTYgMTE0LjYxMzI4MSAyNTYgMjU2em0wIDAiIGZpbGw9InVybCgjYSkiLz48cGF0aCBkPSJtMzkwLjU0Mjk2OSA3OWgtMjY5LjA4NTkzOGMtMjMuNDEwMTU2IDAtNDIuNDU3MDMxIDE5LjA0Njg3NS00Mi40NTcwMzEgNDIuNDU3MDMxdjI2OS4wODU5MzhjMCAyMy40MTAxNTYgMTkuMDQ2ODc1IDQyLjQ1NzAzMSA0Mi40NTcwMzEgNDIuNDU3MDMxaDI2OS4wODU5MzhjMjMuNDEwMTU2IDAgNDIuNDU3MDMxLTE5LjA0Njg3NSA0Mi40NTcwMzEtNDIuNDU3MDMxdi0yNjkuMDg1OTM4YzAtMjMuNDEwMTU2LTE5LjA0Njg3NS00Mi40NTcwMzEtNDIuNDU3MDMxLTQyLjQ1NzAzMXptMTIuNDU3MDMxIDMxMS41NDI5NjljMCA2Ljg2NzE4Ny01LjU4OTg0NCAxMi40NTcwMzEtMTIuNDU3MDMxIDEyLjQ1NzAzMWgtNzguMjUzOTA3di0xMTAuNjE3MTg4aDQyLjQxNDA2M2w3LjAwNzgxMy00Mi41NjI1aC00OS40MjE4NzZ2LTI5LjUxNTYyNGMwLTExLjY1MjM0NCA4Ljk0MTQwNy0yMC41OTM3NSAyMC41OTM3NS0yMC41OTM3NWgyOC4xNDA2MjZ2LTQyLjU1ODU5NGgtMjguMTQwNjI2Yy0zNC45NTcwMzEgMC02My4xNDA2MjQgMjguMzE2NDA2LTYzLjE0MDYyNCA2My4yNzM0Mzd2MjkuMzk0NTMxaC00MS4xOTkyMTl2NDIuNTU4NTk0aDQxLjE5OTIxOXYxMTAuNjIxMDk0aC0xNDguMjg1MTU3Yy02Ljg2NzE4NyAwLTEyLjQ1NzAzMS01LjU4OTg0NC0xMi40NTcwMzEtMTIuNDU3MDMxdi0yNjkuMDg1OTM4YzAtNi44NjcxODcgNS41ODk4NDQtMTIuNDU3MDMxIDEyLjQ1NzAzMS0xMi40NTcwMzFoMjY5LjA4NTkzOGM2Ljg2NzE4NyAwIDEyLjQ1NzAzMSA1LjU4OTg0NCAxMi40NTcwMzEgMTIuNDU3MDMxem0wIDAiIGZpbGw9IiNmZmYiLz48L3N2Zz4=" /></a>
+			                    </li>
+			                    <li class="circle-social">
+			                        <a href="https://twitter.com/dominosMx"><img src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjUxMnB0IiB2aWV3Qm94PSIwIDAgNTEyIDUxMi4wMDAzOCIgd2lkdGg9IjUxMnB0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48bGluZWFyR3JhZGllbnQgaWQ9ImEiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMTY5Ljk5NDAwMTA4MzQiIHgyPSIyOTkuNDkzNDEzNTkwNCIgeTE9IjcxLjk4NjIyNzAxIiB5Mj0iMzQ5LjA1NDg0NDg4NjQiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzAwYzNmZiIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzAwYjBlZCIvPjwvbGluZWFyR3JhZGllbnQ+PGxpbmVhckdyYWRpZW50IGlkPSJiIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiMwMGIwZWQiIHN0b3Atb3BhY2l0eT0iMCIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzAwYTJjZSIvPjwvbGluZWFyR3JhZGllbnQ+PGxpbmVhckdyYWRpZW50IGlkPSJjIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjM2NC4yODI1MjM3ODI0IiB4Mj0iLTM3OS41ODY0MzI3MTE0IiB4bGluazpocmVmPSIjYiIgeTE9IjMxNC4wODY4MzYxMzU2IiB5Mj0iLTg0Ljk1MjE4MDgxNjYiLz48bGluZWFyR3JhZGllbnQgaWQ9ImQiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iMjU2LjAwMDMiIHgyPSIyNTYuMDAwMyIgeGxpbms6aHJlZj0iI2IiIHkxPSI0MzcuMzgzMjE1Mzg5IiB5Mj0iNTA0LjQ3MjAwOTcwNjQiLz48bGluZWFyR3JhZGllbnQgaWQ9ImUiIGdyYWRpZW50VW5pdHM9InVzZXJTcGFjZU9uVXNlIiB4MT0iNDg5LjQyMDk5OTUxMzYiIHgyPSIyMzkuMjkzNzMyODIxNCIgeGxpbms6aHJlZj0iI2IiIHkxPSI0ODIuMDcyNDAxNjUwMiIgeTI9IjIzMS45NDUxMzQ5NTgiLz48cGF0aCBkPSJtNDIwLjQyMTg3NSA1MDMuMjM0Mzc1Yy0xMDkuNTAzOTA2IDExLjY4NzUtMjE5LjMzOTg0NCAxMS42ODc1LTMyOC44NDM3NSAwLTQzLjY2NDA2My00LjY2MDE1Ni03OC4xNTIzNDQtMzkuMTQ4NDM3LTgyLjgxMjUtODIuODE2NDA2LTExLjY4NzUtMTA5LjUwMzkwNy0xMS42ODc1LTIxOS4zMzU5MzggMC0zMjguODM5ODQ0IDQuNjYwMTU2LTQzLjY2NDA2MyAzOS4xNDg0MzctNzguMTUyMzQ0IDgyLjgxMjUtODIuODEyNSAxMDkuNTAzOTA2LTExLjY4NzUgMjE5LjMzNTkzNy0xMS42ODc1IDMyOC44Mzk4NDQgMCA0My42Njc5NjkgNC42NjAxNTYgNzguMTU2MjUgMzkuMTQ4NDM3IDgyLjgxNjQwNiA4Mi44MTI1IDExLjY4NzUgMTA5LjUwMzkwNiAxMS42ODc1IDIxOS4zMzU5MzcgMCAzMjguODM5ODQ0LTQuNjYwMTU2IDQzLjY2Nzk2OS0zOS4xNDQ1MzEgNzguMTU2MjUtODIuODEyNSA4Mi44MTY0MDZ6bTAgMCIgZmlsbD0idXJsKCNhKSIvPjxwYXRoIGQ9Im00NzUuMzg2NzE5IDExMC4wOTc2NTZjLTQuMTMyODEzLTM4Ljc0NjA5NC0zNC43MzQzNzUtNjkuMzUxNTYyLTczLjQ4NDM3NS03My40ODgyODEtOTcuMTcxODc1LTEwLjM2NzE4Ny0xOTQuNjMyODEzLTEwLjM2NzE4Ny0yOTEuODA0Njg4IDAtMzguNzQ2MDk0IDQuMTM2NzE5LTY5LjM1MTU2MiAzNC43NDIxODctNzMuNDg4MjgxIDczLjQ4ODI4MS0xMC4zNjcxODcgOTcuMTcxODc1LTEwLjM2NzE4NyAxOTQuNjMyODEzIDAgMjkxLjgwMDc4MiA0LjEzNjcxOSAzOC43NSAzNC43NDIxODcgNjkuMzU1NDY4IDczLjQ4ODI4MSA3My40ODgyODEgOTcuMTcxODc1IDEwLjM3MTA5MyAxOTQuNjMyODEzIDEwLjM3MTA5MyAyOTEuODAwNzgyIDAgMzguNzUtNC4xMzI4MTMgNjkuMzU1NDY4LTM0LjczODI4MSA3My40ODgyODEtNzMuNDg4MjgxIDEwLjM3MTA5My05Ny4xNjc5NjkgMTAuMzcxMDkzLTE5NC42Mjg5MDcgMC0yOTEuODAwNzgyem0wIDAiIGZpbGw9InVybCgjYykiLz48cGF0aCBkPSJtNy42NzE4NzUgNDA5LjgwNDY4OGMuMzUxNTYzIDMuNTM5MDYyLjcxNDg0NCA3LjA3ODEyNCAxLjA5Mzc1IDEwLjYxNzE4NyA0LjY2MDE1NiA0My42NjQwNjMgMzkuMTQ4NDM3IDc4LjE1MjM0NCA4Mi44MTY0MDYgODIuODEyNSAxMDkuNTAzOTA3IDExLjY4NzUgMjE5LjMzNTkzOCAxMS42ODc1IDMyOC44Mzk4NDQgMCA0My42Njc5NjktNC42NjAxNTYgNzguMTUyMzQ0LTM5LjE0ODQzNyA4Mi44MTI1LTgyLjgxMjUuMzc4OTA2LTMuNTM5MDYzLjc0MjE4Ny03LjA3ODEyNSAxLjA5NzY1Ni0xMC42MTcxODd6bTAgMCIgZmlsbD0idXJsKCNkKSIvPjxwYXRoIGQ9Im01MTEuODkwNjI1IDIzOC4wMDc4MTItMTA2LjI3NzM0NC0xMDYuMjczNDM3Yy0xMS45MTAxNTYgNi44MDg1OTQtMjIuNDA2MjUgMTAuNTg1OTM3LTMwLjMxMjUgMTIuNjc5Njg3LTQuNDQ1MzEyIDEuMTkxNDA3LTguMDc0MjE5IDEuODM5ODQ0LTEwLjY4MzU5MyAyLjE5NTMxMy0xMS45ODQzNzYtMTIuMjg1MTU2LTI4LjcxODc1LTE5LjkxNDA2My00Ny4yNDIxODgtMTkuOTE0MDYzLTM2LjQ0NTMxMiAwLTY1Ljk5NjA5NCAyOS41NDY4NzYtNjUuOTk2MDk0IDY2IDAgMS4zMTY0MDcuMDM1MTU2IDIuNjE3MTg4LjEyMTA5NCAzLjkxNDA2My4xNzU3ODEgMy4xNjAxNTYuNTc4MTI1IDYuMjY1NjI1IDEuMTk5MjE5IDkuMjg1MTU2LTE1LjIxNDg0NC0uMjI2NTYyLTY0LjY2Nzk2OS00LjI4OTA2Mi0xMTEuODMyMDMxLTQ0LjcxODc1LS4wMDM5MDcgMC0uMDAzOTA3LS4wMDM5MDYtLjAwMzkwNy0uMDAzOTA2aC0uMDAzOTA2bC0yMi4yNDIxODctMjIuMjQ2MDk0cy0yNi4wOTM3NSA0NS41NDI5NjkgMTIuMjY5NTMxIDgwLjEwMTU2M2MxLjY4MzU5MyAxLjg3ODkwNiAzLjUzNTE1NiAzLjczNDM3NSA1LjU2MjUgNS41NTg1OTQuMTYwMTU2LjE3OTY4Ny4zMjgxMjUuMzU1NDY4LjQ4ODI4MS41MzUxNTYtNS4wMzUxNTYtLjMzOTg0NC0yMC4xNzk2ODgtMS44NDc2NTYtMjguOTQ1MzEyLTguMDM5MDYzIDAgMC0xLjc2MTcxOSAyNy44MzU5MzggMjEuNDI5Njg3IDQ4LjMyODEyNWwxOC43MjY1NjMgMTguODg2NzE5Yy01LjcwMzEyNi40NzI2NTYtMTIuMDExNzE5LjM1OTM3NS0xNi4zOTg0MzgtMS41NjI1IDAgMCAzLjg4MjgxMiAxNi40ODgyODEgMTguODkwNjI1IDI5LjY4MzU5NGwyNi4yMzQzNzUgMjYuMzcxMDkzYy0xNS43MzgyODEgOS4xNjc5NjktNDMuMjg5MDYyIDIwLjY0MDYyNi03OS41NTQ2ODggMTcuNzEwOTM4bDE1OS4xNDQ1MzIgMTU1LjVjNTQuNjc5Njg3LS4wMTU2MjUgMTA5LjM1OTM3NS0yLjkzNzUgMTYzLjk1NzAzMS04Ljc2NTYyNSA0My42Njc5NjktNC42NjAxNTYgNzguMTU2MjUtMzkuMTQ4NDM3IDgyLjgxNjQwNi04Mi44MTI1IDYuNDgwNDY5LTYwLjc0MjE4NyA5LjM1OTM3NS0xMjEuNTg1OTM3IDguNjUyMzQ0LTE4Mi40MTQwNjN6bTAgMCIgZmlsbD0idXJsKCNlKSIvPjxwYXRoIGQ9Im00MTQuNjgzNTk0IDE1Ny4zNjcxODhjLTExLjMyODEyNSA1LjkyNTc4MS0yOC4zOTA2MjUgOC42NjQwNjItMzQuMDQ2ODc1IDkuNDUzMTI0LS4wNDY4NzUtLjI3MzQzNy0uMDkzNzUtLjUzNTE1Ni0uMTQwNjI1LS43OTY4NzQgMTkuMjMwNDY4LTExLjg5NDUzMiAyNS4xMTcxODctMzQuMjg5MDYzIDI1LjExNzE4Ny0zNC4yODkwNjMtMTEuOTEwMTU2IDYuODA4NTk0LTIyLjQwNjI1IDEwLjU4NTkzNy0zMC4zMTI1IDEyLjY3OTY4Ny00LjQ0NTMxMiAxLjE5MTQwNy04LjA3NDIxOSAxLjgzNTkzOC0xMC42ODM1OTMgMi4xOTUzMTMtMTEuOTg0Mzc2LTEyLjI4OTA2My0yOC43MTg3NS0xOS45MTQwNjMtNDcuMjQyMTg4LTE5LjkxNDA2My0zNi40NDUzMTIgMC02NS45OTYwOTQgMjkuNTQyOTY5LTY1Ljk5NjA5NCA2NiAwIDEuMzEyNS4wMzUxNTYgMi42MTcxODguMTIxMDk0IDMuOTEwMTU3LjE3NTc4MSAzLjE2MDE1Ni41NzgxMjUgNi4yNjU2MjUgMS4xOTkyMTkgOS4yODUxNTYtMTcuNjQwNjI1LS4yNjE3MTktODEuMzE2NDA3LTUuNjcxODc1LTEzNC4wODIwMzEtNjYuOTY0ODQ0IDAgMC0yOS4zODI4MTMgNTEuMjY1NjI1IDIwLjAxNTYyNCA4Ni4yODUxNTcgMCAwLTIwLjAxNTYyNC0uNjI1LTMwLjY0MDYyNC04LjEyODkwNyAwIDAtMy4xMjUgNDkuMzk4NDM4IDUzLjc2OTUzMSA2NS4wMjM0MzggMCAwLTIwLjAwMzkwNyA1LjAwNzgxMi0zMC4wMTU2MjUuNjI4OTA2IDAgMCAxMC4wMDc4MTIgNDIuNTE1NjI1IDYwLjAyNzM0NCA0NS42NDg0MzcgMCAwLTM1Ljg3NSAzMi44NDM3NS05NC40NTcwMzIgMjguMTE3MTg4IDI4LjgxMjUgMTguMjQyMTg4IDYyLjk3MjY1NiAyOC44MDA3ODEgOTkuNTk3NjU2IDI4LjgwMDc4MSAxMDIuOTgwNDY5IDAgMTg2LjQ2NDg0NC04My40ODA0NjkgMTg2LjQ2NDg0NC0xODYuNDYwOTM3IDAtMS4yODUxNTYtLjAxMTcxOC0yLjU3MDMxMy0uMDM5MDYyLTMuODU1NDY5LjAyNzM0NC0uNzYxNzE5LjAzOTA2Mi0xLjUxOTUzMS4wMzkwNjItMi4yODkwNjMgMC0uNTM1MTU2LS4wMTE3MTgtMS4wNzAzMTItLjAxOTUzMS0xLjYwNTQ2OCAxOS4wMzkwNjMtMTIuNjg3NSAzMS4zMjQyMTktMzMuNzIyNjU2IDMxLjMyNDIxOS0zMy43MjI2NTZ6bTAgMCIgZmlsbD0iI2ZmZiIvPjwvc3ZnPg==" /></a>
+			                    </li>
+			                    <li class="circle-social">
+			                        <a href="https://www.youtube.com/user/DominosPizzaMx"><img src="data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZW5hYmxlLWJhY2tncm91bmQ9Im5ldyAwIDAgNTExLjk4MiA1MTEuOTgyIiBoZWlnaHQ9IjUxMiIgdmlld0JveD0iMCAwIDUxMS45ODIgNTExLjk4MiIgd2lkdGg9IjUxMiIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayI+PGxpbmVhckdyYWRpZW50IGlkPSJTVkdJRF8xXyIgZ3JhZGllbnRVbml0cz0idXNlclNwYWNlT25Vc2UiIHgxPSIwIiB4Mj0iNTExLjk4MiIgeTE9IjI1NS45OTEiIHkyPSIyNTUuOTkxIj48c3RvcCBvZmZzZXQ9IjAiIHN0b3AtY29sb3I9IiM5ZGQ2ZmMiLz48c3RvcCBvZmZzZXQ9IjEiIHN0b3AtY29sb3I9IiNkMTdmZjciLz48L2xpbmVhckdyYWRpZW50PjxwYXRoIGQ9Im0zNDEuODg1IDIzOC4zNi0xMzAtNzRjLTYuMTg4LTMuNTI0LTEzLjc4Ny0zLjQ4OC0xOS45NDYuMDkxLTYuMTU4IDMuNTgxLTkuOTQ3IDEwLjE2Ny05Ljk0NyAxNy4yOXYxNDhjMCA3LjEyMyAzLjc4OSAxMy43MDkgOS45NDcgMTcuMjkgNi4xNTkgMy41OCAxMy43NTcgMy42MTYgMTkuOTQ2LjA5MWwxMzAtNzRjMTMuMzk2LTcuNDc4IDEzLjM5Mi0yNy4yODcgMC0zNC43NjJ6bS0xMTkuODk0IDU2Ljk4NHYtNzkuMjA1bDY5LjU3MSAzOS42MDN6bTI4Mi4zMDYtMTQ1Ljg1NWMtNi41MDMtNDUuOTE4LTQzLjMwNi04MS4xNDYtODkuNS04NS42NjgtMzYuNDg5LTMuNTcyLTkzLjY2MS03LjgzLTE1OC44MDYtNy44M3MtMTIyLjMxNiA0LjI1OC0xNTguODA2IDcuODNjLTQ2LjE5NCA0LjUyMS04Mi45OTcgMzkuNzUtODkuNSA4NS42NjctMTAuMjQ3IDcyLjczLTEwLjI0NyAxNDAuMjc2IDAgMjEzLjAwNSA2LjUwMyA0NS45MTggNDMuMzA2IDgxLjE0NiA4OS41IDg1LjY2OCAzNi40ODkgMy41NzIgOTMuNjYxIDcuODMgMTU4LjgwNiA3LjgzczEyMi4zMTYtNC4yNTggMTU4LjgwNi03LjgzYzQ2LjE5NC00LjUyMSA4Mi45OTctMzkuNzUgODkuNS04NS42NjcgMTAuMjQ3LTcyLjczIDEwLjI0Ny0xNDAuMjc2IDAtMjEzLjAwNXptLTM5LjYwNiAyMDcuMzk3Yy0zLjkwNiAyNy41ODQtMjYuMDI1IDQ4Ljc0Ny01My43OTEgNTEuNDY1LTM1LjYwNCAzLjQ4Ni05MS4zNzkgNy42NDEtMTU0LjkwOSA3LjY0MXMtMTE5LjMwNi00LjE1NC0xNTQuOTA5LTcuNjQxYy0yNy43NjYtMi43MTgtNDkuODg1LTIzLjg4MS01My43OTEtNTEuNDY2LTQuODQ0LTM0LjIwMy03LjMtNjguMTQ4LTcuMy0xMDAuODk0czIuNDU2LTY2LjY5IDcuMy0xMDAuODk1YzMuOTA2LTI3LjU4NCAyNi4wMjUtNDguNzQ3IDUzLjc5MS01MS40NjUgMzUuNjA0LTMuNDg2IDkxLjM3OS03LjY0MSAxNTQuOTA5LTcuNjQxczExOS4zMDYgNC4xNTQgMTU0LjkwOSA3LjY0MWMyNy43NjYgMi43MTggNDkuODg1IDIzLjg4MSA1My43OTEgNTEuNDY2IDkuNzIyIDY5LjAxOCA5LjcyMiAxMzIuNzcxIDAgMjAxLjc4OXoiIGZpbGw9InVybCgjU1ZHSURfMV8pIi8+PC9zdmc+" /></a>
+			                    </li>
+			                    <li class="circle-social">
+			                        <a href="https://www.instagram.com/dominosmexico"><img src="data:image/svg+xml;base64,PHN2ZyBoZWlnaHQ9IjUxMnB0IiB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgd2lkdGg9IjUxMnB0IiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIj48bGluZWFyR3JhZGllbnQgaWQ9ImEiIGdyYWRpZW50VHJhbnNmb3JtPSJtYXRyaXgoMSAwIDAgLTEgMCAtMjA4NTQpIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAiIHgyPSI1MTIiIHkxPSItMjExMTAiIHkyPSItMjExMTAiPjxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzAwZjM4ZCIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzAwOWVmZiIvPjwvbGluZWFyR3JhZGllbnQ+PHBhdGggZD0ibTUxMiAyNTZjMCAxNDEuMzg2NzE5LTExNC42MTMyODEgMjU2LTI1NiAyNTZzLTI1Ni0xMTQuNjEzMjgxLTI1Ni0yNTYgMTE0LjYxMzI4MS0yNTYgMjU2LTI1NiAyNTYgMTE0LjYxMzI4MSAyNTYgMjU2em0wIDAiIGZpbGw9InVybCgjYSkiLz48ZyBmaWxsPSIjZmZmIj48cGF0aCBkPSJtMzI5LjYzNjcxOSA0MzNoLTE0Ny4yNzM0MzhjLTU2Ljk5NjA5MyAwLTEwMy4zNjMyODEtNDYuMzY3MTg4LTEwMy4zNjMyODEtMTAzLjM2MzI4MXYtMTQ3LjI3MzQzOGMwLTU2Ljk5NjA5MyA0Ni4zNjcxODgtMTAzLjM2MzI4MSAxMDMuMzYzMjgxLTEwMy4zNjMyODFoMTQ3LjI3MzQzOGM1Ni45OTYwOTMgMCAxMDMuMzYzMjgxIDQ2LjM2NzE4OCAxMDMuMzYzMjgxIDEwMy4zNjMyODF2MTQ3LjI3MzQzOGMwIDU2Ljk5NjA5My00Ni4zNjcxODggMTAzLjM2MzI4MS0xMDMuMzYzMjgxIDEwMy4zNjMyODF6bS0xNDcuMjczNDM4LTMyNGMtNDAuNDUzMTI1IDAtNzMuMzYzMjgxIDMyLjkxMDE1Ni03My4zNjMyODEgNzMuMzYzMjgxdjE0Ny4yNzM0MzhjMCA0MC40NTMxMjUgMzIuOTEwMTU2IDczLjM2MzI4MSA3My4zNjMyODEgNzMuMzYzMjgxaDE0Ny4yNzM0MzhjNDAuNDUzMTI1IDAgNzMuMzYzMjgxLTMyLjkxMDE1NiA3My4zNjMyODEtNzMuMzYzMjgxdi0xNDcuMjczNDM4YzAtNDAuNDUzMTI1LTMyLjkxMDE1Ni03My4zNjMyODEtNzMuMzYzMjgxLTczLjM2MzI4MXptMCAwIi8+PHBhdGggZD0ibTI1NiAzNTJjLTUyLjkzMzU5NCAwLTk2LTQzLjA2NjQwNi05Ni05NnM0My4wNjY0MDYtOTYgOTYtOTYgOTYgNDMuMDY2NDA2IDk2IDk2LTQzLjA2NjQwNiA5Ni05NiA5NnptMC0xNjJjLTM2LjM5NDUzMSAwLTY2IDI5LjYwNTQ2OS02NiA2NnMyOS42MDU0NjkgNjYgNjYgNjYgNjYtMjkuNjA1NDY5IDY2LTY2LTI5LjYwNTQ2OS02Ni02Ni02NnptMCAwIi8+PHBhdGggZD0ibTM2NS44MzIwMzEgMTU5Ljg5ODQzOGMwIDcuNTgyMDMxLTYuMTQ4NDM3IDEzLjczMDQ2OC0xMy43MzA0NjkgMTMuNzMwNDY4LTcuNTgyMDMxIDAtMTMuNzMwNDY4LTYuMTQ4NDM3LTEzLjczMDQ2OC0xMy43MzA0NjggMC03LjU4MjAzMiA2LjE0ODQzNy0xMy43MzA0NjkgMTMuNzMwNDY4LTEzLjczMDQ2OSA3LjU4MjAzMiAwIDEzLjczMDQ2OSA2LjE0ODQzNyAxMy43MzA0NjkgMTMuNzMwNDY5em0wIDAiLz48L2c+PC9zdmc+" /></a>
+			                    </li>
+			                </ul>
+			                <div class="col-md-12 col-sm-6 col-xs-6">
+			                	<a href="https://play.google.com/store/apps/details?id=com.molo.dominos&amp;hl=en"><img class=" iconsStores lazyload" src="https://assets.dominos.com.mx/dev/webOptimized/icons/google_play.png"></a>
+			                    <a href="https://itunes.apple.com/mx/app/dominos-mx/id1049204901?mt=8"><img class="iconsStores lazyload" src="https://assets.dominos.com.mx/dev/webOptimized/icons/app_store.png"></a>
+			                </div>
+			      </div>
+
+	   			</div> 
+	   	</div> 
+
+		<div class="final">
+
+
+
+			<p>2020 Ⓒ Domino's Todos los derechos reservados. Términos y condiciones</p>
+		</div >
+	</footer>
+</body>
+<!--JS BOOTSTRAP-->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+<script src="js/indexjs.js" type="text/javascript" charset="utf-8" async defer></script>
+
+</html>

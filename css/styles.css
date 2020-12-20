@@ -1,0 +1,416 @@
+*{
+	margin:     0;
+	padding: 	 0;
+	box-sizing: border-box;
+	list-style: none;
+	font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+
+body{
+	padding-top: 4em;
+}
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+}
+
+
+
+.bg-DP{
+	background-color: #006391;
+	padding: 0;
+}
+
+#icn-domino{
+	width: 9em;
+}
+
+.efecto-img:hover{
+	background-color: #6cb2eb;
+}
+
+.nav-link{
+	padding:0;
+}
+
+.nav-izq{
+	margin-left: 15em;
+}
+
+.carousel-indicators li{
+	height: .8em;
+	width: .8em;
+	margin-left: 1em;
+	border-radius: 100%;
+}
+.active{
+	background-color: cyan;
+}
+
+.bg-color-principal{
+	background-color: #006391;
+}
+
+.rojo-dominos{
+	color: #e41937;
+}
+.azul-dominos{
+	color:#006391;
+}
+
+.elige-pizza {
+	text-align: center;
+}
+
+
+
+.titulo-pizza{
+	background-color: #006391;
+	color: white;
+	border: 1px solid #006391;
+	text-align:left;
+	padding-left: 1em;
+	font-size: 1.3em;
+}
+
+.img-pizza{
+	width: 100%;
+	border: 1px solid #6c757d;
+	padding-left: 3em;
+	padding-right:3em;
+	margin:0;
+
+}
+.back{
+		border: 1px solid #6c757d;
+		display: none;
+}
+
+.detalles{
+	text-align: center;
+	color:#6c757d;
+	border: 1px solid #6c757d;
+	padding-left: 1.5em;
+}
+
+.detalles:hover{
+	background-color: #6cb2eb;
+	color: white;
+
+}
+
+
+
+.back {
+  animation-name: slidein;
+  animation-duration: 3s;
+}
+
+@keyframes slidein {
+  from {
+    color: white
+  }
+
+  to {
+    color: black;
+  }
+}
+
+
+
+.ordena-aqui{
+	width: 100%;
+	border: 1px solid #6c757d;
+}
+
+.ordena-aqui a{
+	color:#38c172;
+}
+
+
+.ordena-aqui:hover{
+	background-color: #38c172;
+	
+}
+
+.ordena-aqui:hover a{
+	color: white;
+}
+
+.elige-pizza{
+	display: inline-block;
+}
+
+
+.contacto{
+	background-color: #5c6873;
+}
+
+
+.final{
+	background-color: #808080;
+	text-align: center;
+	padding:1em 0.5em;
+}
+
+.contacto{
+	background-color: #4d4d4d;
+}
+
+.bg-gris{
+	background-color: #4d4d4d;
+}
+
+
+.card{
+	border-style: none;
+	padding-top: 1em;
+}
+
+.iconsStores{
+	width: 40%;
+} 
+
+.f1{
+	color: white
+}
+
+.list-group-item{
+	border-style: none;
+
+}
+
+.list-group-item a{
+	color: white;	
+}
+
+.social-media li{
+	margin-left: 1.5em;
+	display: inline;
+
+}
+.circle-social a img{
+	width: 10%;	
+	border-radius: 100%
+	padding .5em;
+}
+
+
+.form-name{
+	border: .5px solid #6c757d;
+	border-radius: 5%;
+	text-align: center;
+
+}
+
+.nameInput{
+	color: #317690;
+	
+}
+
+.extra{
+	padding: 2em;
+}
+
+.plados{
+	padding: 0em 10em;
+}
+
+.captcha{
+	padding-left: 25em;
+}
+
+.aviso{
+	margin-top: 1.5em;
+}
+
+.botones{
+	margin-left: 25em;
+	margin-bottom: 3em;
+}
+
+.btn-custom
+{
+	padding: 1em 3em;
+	margin-left: 1em;
+}
+
+.separador{
+	background-color: #dbdbdb;
+	width: 100%;
+	height: .25em;
+
+}
+
+/*PADINGS*/
+
+.padbot-2
+{
+	padding-bottom: 2em;
+}
+
+.pt1em{
+	padding-top: 1em;
+}
+
+.pb1em{
+	padding-bottom: 1em;
+}
+
+.pb2em{
+	padding-bottom: 2em;
+}
+
+.mb2em{
+	margin-bottom: 2em;
+}
+
+
+.mas-info{
+	display: none;
+}
+
+.img:hover .mas-info{
+	display: flex;
+	opacity: 1;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	width: 99%;
+	transition: 0.7s;
+	background: #006391;
+	color: #fff;
+	height: 100%;
+	top: 0%;
+	font-size: 1em;
+	animation-name: promotrans;
+  	animation-duration: 0.5s;
+}
+
+
+@keyframes promotrans{
+  from {
+    height: 0%;
+  }
+
+  to {
+    height: 100%;
+  }
+}
+
+.dividir{
+	width: 100%;
+	height: .05em;
+	background-color: #dbdbdb;
+	margin-bottom: 0.5em;
+}
+
+.imgp{
+	width: 104%;
+	height: auto;
+}
+
+.borderbottom{
+	border-bottom: 1px solid #dbdbdb;
+}
+
+
+.mb-5{
+	margin-bottom: 5em;
+}
+
+
+.pl-5{
+	padding-left: 5em;
+}
+
+.ml-15{
+	margin-left: 15em;
+}
+
+.min{
+	display: none;
+}
+
+
+@media (max-width:576px) {
+	.cont{
+		display: none;
+	}
+
+	.pizzas{
+		display: none;
+	}
+
+	.min{
+		display: block;
+	}
+  
+
+	.captcha{
+		margin-right:  10em;
+	}
+
+
+	.botones{
+		margin:0em 0em 2em 0em ;
+	}
+
+	.form-name{
+		width: 100%;
+	}
+
+	.plados{
+		padding:0;
+	}
+
+	.mapa{
+		height: auto;
+		width: 100%;
+	}
+
+	.fb{
+		width: 100%;
+		height: auto;
+		display: none;
+	}
+
+	.nav-izq{
+		margin-left:10em;
+	}
+
+	.buton{
+		padding-left:7em;
+	}
+}
+
+
+@media (max-width:768px) {
+	body{
+	padding-top: 3em;
+	}
+
+	.captcha{
+		padding-left: 5em;
+	}
+
+
+	.botones{
+		margin:0em 0em 2em 6em ;
+	}
+
+	.plados{
+		padding:0;
+	}
+
+	.buton{
+		margin-top: 2em;
+		margin-left: 13em;
+	}
+}
+
+
+
+
